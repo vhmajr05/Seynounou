@@ -28,7 +28,7 @@ const CONFIG = {
   ],
   gallery: [ // ajoute une ligne par photo (dépose l'image dans )
     {src:"photo-1.jpg",caption:"Un souvenir précieux"},
-    {src:"photo-2.jpg",caption:"Légende de la photo 2"} // À PERSONNALISER
+    {src:"photo-2.jpg",caption:"Toi et moi, tout simplement"} // À PERSONNALISER
   ]
 };
 
