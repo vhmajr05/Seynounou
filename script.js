@@ -30,7 +30,7 @@ Si tu es arrivée jusqu'ici, c'est que tu as parcouru toutes les petites attenti
 
 J'espère que tu as souri, que certains souvenirs t'ont fait du bien et que tu as ressenti, à travers ces quelques pages, toute l'affection que j'ai voulu y mettre.
 
-Aujourd'hui, je célèbre tes 21 ans, mais je célèbre aussi la personne que tu es : une personne avec ses rêves, ses ambitions, ses qualités et tout ce qui fait qu'elle est unique.
+Aujourd'hui, je célèbre tes 20 ans, mais je célèbre aussi la personne que tu es : une personne avec ses rêves, ses ambitions, ses qualités et tout ce qui fait qu'elle est unique.
 
 Je prie Allah de t'accorder une longue vie remplie de bonheur, de santé, de réussite et de tranquillité. Qu'Il facilite tes projets, protège ton cœur et t'éloigne de tout ce qui pourrait te faire du mal.
 
@@ -226,7 +226,7 @@ $("share").onclick = async () => {
 /* ---------- Carte secrète ---------- */
 // Transforme un texte (paragraphes séparés par une ligne vide) en <p>, avec mise en forme des lignes spéciales
 const paras = t => t.trim().split(/\n\s*\n/).map(x => {
-  const c = /^Joyeux 21e anniversaire/.test(x) ? "wish" : /^(Avec toute mon affection|Ton Mouhamed|Je t'aime, ma Seynounou)/.test(x) ? "end" : "";
+  const c = /^Joyeux 20e anniversaire/.test(x) ? "wish" : /^(Avec toute mon affection|Ton Mouhamed|Je t'aime, ma Seynounou)/.test(x) ? "end" : "";
   return `<p${c ? ` class="${c}"` : ""}>${x}</p>`;
 }).join("");
 $("scText").innerHTML = paras(CONFIG.secretCard);
